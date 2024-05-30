@@ -42,7 +42,7 @@ export default function TabRoutes() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#DAA520',
-    paddingTop: 80
+    backgroundColor: '#FFD105',
+    paddingTop: 60
   }
-});
+}); 

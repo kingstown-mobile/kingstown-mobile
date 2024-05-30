@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, TextInput, Text, TouchableOpacity, Alert, Button } from "react-native";
+import { View, TextInput, Text, TouchableOpacity, Alert} from "react-native";
 
 import { useNavigation } from "@react-navigation/native";
 
@@ -10,7 +10,7 @@ export default function Form() {
 
     const [matricula, setMatricula] = useState(null)
     const [senha, setSenha] = useState(null)
-    const [textButton, setTextButton] = useState("Acessar")
+    const [textButton, setTextButton] = useState("Login")
 
     const createAlert = () => Alert.alert(
         "Oops!",
@@ -51,13 +51,6 @@ export default function Form() {
                     onPress={() => limpaCampos()}
                 >
                     <Text style={styles.textButtonClean}>{textButton}</Text>
-                </TouchableOpacity>
-
-                <TouchableOpacity
-                    style={styles.buttonCadastro}
-                    onPress={() => navigation.navigate("Cadastro")}
-                >
-                    <Text style={styles.textCadastro}>Ainda não sou cadastrado</Text>
                 </TouchableOpacity>
             </View>
         </View>

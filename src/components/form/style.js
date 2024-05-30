@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
         width:"100%",
         height:"100%",
         bottom:0,
-        backgroundColor:"#C0C0C0",
+        backgroundColor:"#FFD105",
         alignItems: "center",
         borderTopLeftRadius:30,
         borderTopRightRadius:30,
@@ -20,17 +20,19 @@ const styles = StyleSheet.create({
     input:{
         width:"90%",
         borderRadius:50,
-        backgroundColor:"#DCDCDC",
+        backgroundColor:"#FFF",
         height:40,
         margin:12,
         paddingLeft:10
     },
     buttonClean:{
         borderRadius:50,
+        borderWidth: 2, 
+        borderColor: '#000',
         alignItems:"center",
         justifyContent:"center",
         width:"90%",
-        backgroundColor:"#1E90FF",
+        backgroundColor:"#5922A0",
         paddingTop:10,
         paddingBottom:10,
         marginLeft:12,
@@ -46,20 +48,6 @@ const styles = StyleSheet.create({
         fontSize: 17,
         textDecorationLine: "underline"
     },
-    textCadastro:{
-        fontSize: 20,
-        fontWeight: "bold"
-
-    },
-    buttonCadastro:{
-        alignItems:"center",
-        justifyContent:"center",
-        width:"90%",
-        paddingTop:10,
-        paddingBottom:10,
-        marginLeft:12,
-        margin:30
-    }
 });
 
 export default styles;
