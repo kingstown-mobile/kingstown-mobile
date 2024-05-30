@@ -14,7 +14,7 @@ export default function Form() {
 
     const createAlert = () => Alert.alert(
         "Oops!",
-        "Verifique se o campo matrícula e senha estão preenchidos."
+        "Verifique se o campo de Login e senha estão preenchidos."
     );
 
     function limpaCampos() {
@@ -32,7 +32,7 @@ export default function Form() {
                     style={styles.input}
                     onChangeText={setMatricula}
                     value={matricula}
-                    placeholder="Matrícula"
+                    placeholder="E-mail"
                     keyboardType="numeric"
                 />
 

@@ -6,16 +6,9 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         padding: 10,
     },
-    textTitle: {
-        color: "#1C1C1C",
-        fontSize: 36,
-        fontWeight: "bold"
-    },
-    textSubTitle: {
-        paddingRight:110,
-        color: "#1E90FF",
-        fontSize: 22,
-        fontWeight: "bold"
+    img: {
+        height: 200,
+        width: 350
     }
 });
 
