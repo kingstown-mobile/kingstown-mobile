@@ -21,16 +21,6 @@ export default function Perfil() {
     console.log('Ação cancelada')
   };
 
-
-
-
-
-
-
-
-
-
-
   return (
     <View style={styles.container}>
       <View style={styles.containerTitle}>
