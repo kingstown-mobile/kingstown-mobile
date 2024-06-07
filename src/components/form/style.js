@@ -9,12 +9,11 @@ const styles = StyleSheet.create({
         alignItems: "center",
         borderTopLeftRadius:30,
         borderTopRightRadius:30,
-        marginTop:30,
+        marginTop:20,
     },
     form:{
         width:"100%",
         height:"auto",
-        marginTop:30,
         padding:10
     },
     input:{
@@ -41,12 +40,6 @@ const styles = StyleSheet.create({
     textButtonClean:{
         fontSize:22,
         color:"#FFFFFF"
-    },
-    textEsqueceuSenha:{
-        textAlign: "right",
-        paddingRight: 30,
-        fontSize: 17,
-        textDecorationLine: "underline"
     },
 });
 

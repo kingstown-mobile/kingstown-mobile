@@ -30,11 +30,6 @@ export default function TabRoutes() {
         component={Home}
         options={{ headerShown: false }}
       />
-      <Stack.Screen
-        name='Cadastro'
-        component={Cadastro}
-        options={{ headerShown: false }}
-      />
     </Stack.Navigator>
   );
 }

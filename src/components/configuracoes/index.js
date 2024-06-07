@@ -1,8 +1,6 @@
 import React from "react";
 import { View, Text, TouchableOpacity } from "react-native";
 import styles from './style'
-import Line from '../horizontalLine'
-
 
 export default function Configuracoes() {
   return (
@@ -13,10 +11,12 @@ export default function Configuracoes() {
       <TouchableOpacity>
           <Text style={styles.subTitleNot}>Notificações</Text>
       </TouchableOpacity>
-      <Line/>
+      <Text style={styles.subtitulos}>Controle de Notificações do App</Text>
+      
       <TouchableOpacity>
         <Text style={styles.subTitleNot}>Sobre</Text>
       </TouchableOpacity>
+      <Text style={styles.subtitulos}>Versão 1.0 - Kingstown Sala de Aula</Text>
     </View>
   );
 }

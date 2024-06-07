@@ -13,7 +13,7 @@ export default function Form() {
     const [textButton, setTextButton] = useState("Login")
 
     const createAlert = () => Alert.alert(
-        "Oops!",
+        "Erro!",
         "Verifique se o campo de Login e senha estão preenchidos."
     );
 
@@ -44,8 +44,6 @@ export default function Form() {
                     keyboardType="numeric"
                     secureTextEntry={true}
                 />
-                <Text style={styles.textEsqueceuSenha}>esqueceu sua senha?</Text>
-
                 <TouchableOpacity
                     style={styles.buttonClean}
                     onPress={() => limpaCampos()}

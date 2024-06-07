@@ -14,6 +14,10 @@ const styles = StyleSheet.create({
         paddingLeft: 20,
         fontSize: 20
     },
+    subtitulos: {
+        paddingLeft: 20,
+        fontSize: 14
+    }
 });
 
 export default styles;

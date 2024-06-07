@@ -8,6 +8,11 @@ const styles = StyleSheet.create({
     },
     title: {
         fontSize: 22
+    },
+    content: {
+        marginTop: 30,
+        paddingLeft: 20,
+        fontSize: 20
     }
 });
 
