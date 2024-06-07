@@ -28,6 +28,7 @@ export default function Perfil() {
       </View>
       <TouchableOpacity>
         <Text style={styles.content}>Meus dados</Text>
+        <Text style={styles.subtitulo}>Verificar os meus dados</Text>
       </TouchableOpacity>
       <TouchableOpacity>
         <Text 
@@ -36,6 +37,7 @@ export default function Perfil() {
         >
           Encerrar Sessão
         </Text>
+        <Text style={styles.subtitulo}>Encerrar sessão ou entrar com outra conta</Text>
         <Modal
         visible={modalVisible}
         onConfirm={handleConfirm}

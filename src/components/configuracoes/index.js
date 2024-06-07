@@ -10,13 +10,14 @@ export default function Configuracoes() {
       </View>
       <TouchableOpacity>
           <Text style={styles.subTitleNot}>Notificações</Text>
+          <Text style={styles.subtitulos}>Controle de Notificações do App</Text>
       </TouchableOpacity>
-      <Text style={styles.subtitulos}>Controle de Notificações do App</Text>
+      
       
       <TouchableOpacity>
         <Text style={styles.subTitleNot}>Sobre</Text>
+        <Text style={styles.subtitulos}>Versão 1.0 - Kingstown Sala de Aula</Text>
       </TouchableOpacity>
-      <Text style={styles.subtitulos}>Versão 1.0 - Kingstown Sala de Aula</Text>
     </View>
   );
 }
