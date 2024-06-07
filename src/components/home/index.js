@@ -11,8 +11,7 @@ export default function Home() {
     return (
         <Tab.Navigator 
         screenOptions={{ headerShown: false, tabBarStyle: {backgroundColor: '#FFD105'}, 
-        tabBarActiveTintColor: 'black'
-    }} 
+        tabBarActiveTintColor: 'black'}} 
         >
             <Tab.Screen name="Configurações" component={ConfiguracoesScreen} options={{ tabBarIcon: () => <Ionicons name="settings-outline" size={24} color="black" /> }} />
             <Tab.Screen name="Minhas Turmas" component={TurmasScreen} options={{ tabBarIcon: () => <AntDesign name="book" size={24} color="black" /> }} />
